@@ -1,5 +1,7 @@
 module github.com/wI2L/fizz
 
+replace github.com/loopfz/gadgeto v0.10.1 => github.com/celer/gadgeto v0.10.1
+
 go 1.12
 
 require (
@@ -16,7 +18,7 @@ require (
 	github.com/juju/loggo v0.0.0-20190526231331-6e530bcce5d8 // indirect
 	github.com/juju/testing v0.0.0-20190723135506-ce30eb24acd2 // indirect
 	github.com/leodido/go-urn v1.2.0 // indirect
-	github.com/loopfz/gadgeto v0.9.0
+	github.com/loopfz/gadgeto v0.10.1
 	github.com/mattn/go-isatty v0.0.10 // indirect
 	github.com/stretchr/testify v1.4.0
 	github.com/ugorji/go v1.1.7 // indirect
